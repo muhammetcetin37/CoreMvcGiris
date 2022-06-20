@@ -22,8 +22,9 @@ namespace CoreMvcGiris
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+
             app.UseStaticFiles();
+            app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
